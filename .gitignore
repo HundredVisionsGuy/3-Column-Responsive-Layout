@@ -1,1 +1,2 @@
-*.ini # igore .ini files
+# igore .ini files
+*.ini 
