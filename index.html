@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8" />
 <title>3 Column Responsive Layout</title>
+<link href="slider.css" rel="stylesheet" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
 </head>
 <body>
 <section id="wrapper">
@@ -30,7 +33,7 @@
 	</nav>
 	<section id="highlights">
 		<!-- Indicators -->
-		<ol id="highligh-indicators">
+		<ol id="highlight-indicators">
 			<li class="active"></li>
 			<li></li>
 			<li></li>
@@ -38,27 +41,39 @@
 		
 		<!-- Slides -->
 		<div class="highlights-slides">
-			<div class="slide active">
+			<div class="slide">
+				<article class="left">
+					<h2>Cool Graphic, Eh?</h2>
+					<p>You can get one too. See freepick link over image.</p>
+				</article>
 				<figure>
-					<img src="http://loremflickr.com/950/400/dog" alt="random placeholder image" />
+					<img src="images/01-adaptive-web.jpg" alt="random placeholder image" />
 					<figcaption>
-					Caption for our image.
+					<a href="http://www.freepik.com/free-vector/adaptative-web-development-vector_757643.htm">Designed by Freepik</a>
 					</figcaption>
 				</figure>
 			</div>
 			<div class="slide">
+				<article class="left">
+					<h2>I'm a Hipster...</h2>
+					<p>See my coffee cup next to my Mac and my cool thick glasses?</p>
+				</article>
 				<figure>
-					<img src="http://loremflickr.com/950/400/dog" alt="random placeholder image" />
+					<img src="images/02-documents.jpg" alt="random placeholder image" />
 					<figcaption>
-					Caption for our image.
+					<a href="http://www.freepik.com/free-vector/work-office-elements_715490.htm">Designed by Freepik</a>
 					</figcaption>
 				</figure>
 			</div>
 			<div class="slide">
+				<article class="left">
+					<h2>Be Like This Dude!</h2>
+					<p>Take my Web Coding course, and you can wear a C++ shirt too!</p>
+				</article>
 				<figure>
-					<img src="http://loremflickr.com/950/400/dog" alt="random placeholder image" />
+					<img src="images/03-programmer.jpg" alt="random placeholder image" />
 					<figcaption>
-					Caption for our image.
+					<a href="http://www.freepik.com/free-vector/web-programmer_761683.htm">Designed by Freepik</a>
 					</figcaption>
 				</figure>
 			</div>
