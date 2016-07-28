@@ -1,0 +1,45 @@
+/* navigation.css */
+#social-media-links {}
+#social-media-links ul,
+#main-nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+#social-media-links li,
+#main-nav li {
+	padding: 0;
+}
+#social-media-links a,
+#main-nav a {
+	display: block;
+	text-decoration: none;
+	padding: .5em 1em;
+	background-color: #0D0D0D;
+	color: #f4f4f4;
+	border-bottom: 1px solid #4D8EB4;
+}
+#social-media-links li:last-child a,
+#main-nav li:last-child a {
+	border-bottom: none;
+}
+/* Use Flexbox to switch order of navs */
+#banner {
+	display: flex;
+	flex-direction: column;
+}
+#banner h1 {
+	order: 1;
+}
+#main-nav {
+	order: 2;
+}
+#social-media-links {
+	order: 3;
+}
+
+
+
+
+
+
+
