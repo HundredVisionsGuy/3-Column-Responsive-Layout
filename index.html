@@ -3,9 +3,12 @@
 <head>
 <meta charset="utf-8" />
 <title>3 Column Responsive Layout</title>
-<link href="slider.css" rel="stylesheet" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/slider.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato|Passion+One" rel="stylesheet">
+<link href="css/slider.css" rel="stylesheet" />
+<link href="css/styles.css" rel="stylesheet" />
+<link href="css/navigation.css" rel="stylesheet" />
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body>
 <section id="wrapper">
@@ -13,6 +16,7 @@
 	<header id="banner">
 		<h1>3 Column Responsive Layout <span id="tagline">because 3 is better than 2</span></h1>
 		<nav id="social-media-links">
+			<span class="fa fa-navicon"></span>
 			<ul>
 				<li class="facebook"><a href="#">facebook</a></li>
 				<li class="twitter"><a href="#">twitter</a></li>
@@ -20,25 +24,26 @@
 				<li class="linked-in"><a href="#">linked-in</a></li>
 			</ul>
 		</nav>
+		<nav id="main-nav">
+			<span class="fa fa-navicon"></span>
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="#">link 1</a></li>
+				<li><a href="#">link 2</a></li>
+				<li><a href="#">link 3</a></li>
+				<li><a href="#">about us</a></li>
+				<li><form><input type="text" class="search-input" /><button id="search" type="button">Go!</button></form></li>
+			</ul>
+		</nav>
 	</header>
-	<nav id="main-nav">
-		<ul>
-			<li><a href="index.html">home</a></li>
-			<li><a href="#">link 1</a></li>
-			<li><a href="#">link 2</a></li>
-			<li><a href="#">link 3</a></li>
-			<li><a href="#">about us</a></li>
-			<li><form><input type="text" class="search-input" /><button id="search" type="button">Go!</button></form></li>
-		</ul>
-	</nav>
 	<section id="highlights">
-		<!-- Indicators -->
+		<!-- Indicators 
 		<ol id="highlight-indicators">
 			<li class="active"></li>
 			<li></li>
 			<li></li>
 		</ol>
-		
+		-->
 		<!-- Slides -->
 		<div class="highlights-slides">
 			<div class="slide">
@@ -53,6 +58,7 @@
 					</figcaption>
 				</figure>
 			</div>
+			<!-- Hide other 2 slides for now
 			<div class="slide">
 				<article class="left">
 					<h2>I'm a Hipster...</h2>
@@ -77,13 +83,15 @@
 					</figcaption>
 				</figure>
 			</div>
+			-->
 		</div>
 		
-		<!-- Controls -->
+		<!-- Controls
 		<nav>
 			<button href="#" class="left carousel-button"></button>
 			<button href="#" class="right carousel-button"></button>
-		</nav>
+		</nav> 
+		-->
 	</section>
 	<section id="page">
 		<div class="3column">
@@ -119,5 +127,7 @@
 		<p>Site design by <a href="mailto:cwinikka@gmail.com">Chris Winikka</a> &copy; 2016.</p>
 	</footer>
 </section>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
 </body>
 </html>
