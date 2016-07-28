@@ -1,0 +1,60 @@
+/* styles.css 
+	Mobile first Design:
+	We'll start with mobile screens:
+		Colors:
+			Almost White: #f4f4f4
+			Almost Black: #0D0D0D
+			Blue: #4D8EB4
+			Dark Brown: #72522A
+			Gray: #C1C1C1
+		Typography
+		Minor Window stuff
+	Then, we'll adjust as the window gets wider
+*/
+/* Load HTML5 Reset CSS */
+@import url('html5-reset.css');
+
+body {
+	background-color: #f4f4f4;
+	color: #0D0D0D;
+	font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Passion One', cursive;
+}
+h1 {
+    font-size: 300%;
+}
+h2 {
+	font-size: 180%;
+}
+h3 {
+	font-size: 160%;
+}
+h4 {
+	font-size: 140%;
+}
+#tagline {
+    color: #999;
+    font-weight: normal;
+    font-size: 75%;
+    text-transform: uppercase;
+    display: block;
+}
+p, dl, dt, dd, ol, ul, td, th, form, 
+article, aside, canvas, details, figcaption, figure, footer, header {
+	padding: .5em 1em;
+}
+p {
+	line-height: 1.3;
+}
+ul, ol {
+	list-style-position: inside;
+}
+li {
+	padding: 0 1em .5em 1em;
+}
+#wrapper {
+	background-color: #C1C1C1;
+	padding: .5em 1em;
+}
